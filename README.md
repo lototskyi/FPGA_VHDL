@@ -1,0 +1,1 @@
+"# FPGA projects using VHDL (tested on ALTERA Cyclone IV EP4CE6E22C8N)" 
