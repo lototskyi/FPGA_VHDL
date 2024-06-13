@@ -1,0 +1,376 @@
+# Compile of ShiftRegister.vhd failed with 1 errors.
+# Compile of ShiftRegister.vhd failed with 1 errors.
+# Compile of ShiftRegister.vhd was successful.
+# Compile of ShiftRegister_tb.vhd failed with 2 errors.
+# Compile of ShiftRegister_tb.vhd failed with 2 errors.
+# Compile of ShiftRegister_tb.vhd failed with 2 errors.
+# Compile of ShiftRegister_tb.vhd was successful.
+vsim work.shiftregister_tb
+# vsim work.shiftregister_tb 
+# Start time: 12:49:41 on Jun 10,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.shiftregister_tb(rtl)
+# Loading work.shiftregister(rtl)
+add wave -position end  sim:/shiftregister_tb/UUT/clk
+add wave -position end  sim:/shiftregister_tb/UUT/rst
+add wave -position end  sim:/shiftregister_tb/UUT/ShiftEnable
+add wave -position end  sim:/shiftregister_tb/UUT/Din
+add wave -position end  sim:/shiftregister_tb/UUT/Dout
+add wave -position end  sim:/shiftregister_tb/UUT/SR
+run 100us
+# Compile of ShiftRegister_tb.vhd was successful.
+run 100us
+# Compile of Synchroniser.vhd failed with 1 errors.
+# Compile of Synchroniser.vhd was successful.
+# Compile of Synchroniser_tb.vhd failed with 1 errors.
+# Compile of Synchroniser_tb.vhd failed with 1 errors.
+# Compile of Synchroniser_tb.vhd failed with 1 errors.
+# Compile of Synchroniser_tb.vhd was successful with warnings.
+# Compile of Synchroniser_tb.vhd was successful.
+vsim work.synchroniser_tb
+# End time: 18:54:13 on Jun 10,2024, Elapsed time: 6:04:32
+# Errors: 0, Warnings: 20
+# vsim work.synchroniser_tb 
+# Start time: 18:54:13 on Jun 10,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.synchroniser_tb(rtl)
+# Loading work.synchroniser(rtl)
+add wave -position end  sim:/synchroniser_tb/UUT/clk
+add wave -position end  sim:/synchroniser_tb/UUT/rst
+add wave -position end  sim:/synchroniser_tb/UUT/Async
+add wave -position end  sim:/synchroniser_tb/UUT/Synced
+add wave -position end  sim:/synchroniser_tb/UUT/SR
+run
+# Compile of UART_rx.vhd failed with 1 errors.
+# Compile of UART_rx.vhd failed with 1 errors.
+# Compile of UART_rx.vhd failed with 17 errors.
+# Compile of UART_rx.vhd failed with 15 errors.
+# Compile of UART_rx.vhd failed with 7 errors.
+# Compile of UART_rx.vhd was successful.
+# Compile of BaudClkGenerator_tb.vhd was successful with warnings.
+# Compile of BaudClkGenerator_tb.vhd was successful.
+vsim work.baudclkgenerator_tb
+# End time: 16:39:39 on Jun 11,2024, Elapsed time: 21:45:26
+# Errors: 0, Warnings: 10
+# vsim work.baudclkgenerator_tb 
+# Start time: 16:39:39 on Jun 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baudclkgenerator_tb(rtl)
+# Loading work.baudclkgenerator(rtl)
+# ** Error: (vsim-3733) No default binding for component instance 'UUT'.
+#    The following component generic is not on the entity:
+#           UART_Rx
+#    Time: 0 ps  Iteration: 0  Instance: /baudclkgenerator_tb/UUT File: D:/my/courses/FPGA/projects/RS232/test_benches/BaudClkGenerator_tb.vhd Line: 55
+# Error loading design
+# End time: 16:39:40 on Jun 11,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.baudclkgenerator_tb
+# vsim work.baudclkgenerator_tb 
+# Start time: 16:40:03 on Jun 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baudclkgenerator_tb(rtl)
+# Loading work.baudclkgenerator(rtl)
+# ** Error: (vsim-3733) No default binding for component instance 'UUT'.
+#    The following component generic is not on the entity:
+#           UART_Rx
+#    Time: 0 ps  Iteration: 0  Instance: /baudclkgenerator_tb/UUT File: D:/my/courses/FPGA/projects/RS232/test_benches/BaudClkGenerator_tb.vhd Line: 55
+# Error loading design
+# End time: 16:40:03 on Jun 11,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of BaudClkGenerator.vhd was successful.
+vsim work.baudclkgenerator_tb
+# vsim work.baudclkgenerator_tb 
+# Start time: 16:40:30 on Jun 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baudclkgenerator_tb(rtl)
+# Loading work.baudclkgenerator(rtl)
+add wave -position end  sim:/baudclkgenerator_tb/UUT/clk
+add wave -position end  sim:/baudclkgenerator_tb/UUT/rst
+add wave -position end  sim:/baudclkgenerator_tb/UUT/Start
+add wave -position end  sim:/baudclkgenerator_tb/UUT/BaudClk
+add wave -position end  sim:/baudclkgenerator_tb/UUT/Ready
+add wave -position end  sim:/baudclkgenerator_tb/UUT/BitPeriodCounter
+add wave -position end  sim:/baudclkgenerator_tb/UUT/ClocksLeft
+add wave -position end  sim:/baudclkgenerator_tb/UUT/BIT_PERIOD
+add wave -position end  sim:/baudclkgenerator_tb/UUT/HALF_BIT_PERIOD
+run
+# Compile of BaudClkGenerator_tb.vhd was successful.
+run
+vsim work.baudclkgenerator_tb
+# End time: 17:06:22 on Jun 11,2024, Elapsed time: 0:25:52
+# Errors: 0, Warnings: 3
+# vsim work.baudclkgenerator_tb 
+# Start time: 17:06:22 on Jun 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baudclkgenerator_tb(rtl)
+# Loading work.baudclkgenerator(rtl)
+add wave -position end  sim:/baudclkgenerator_tb/UUT/clk
+add wave -position end  sim:/baudclkgenerator_tb/UUT/rst
+add wave -position end  sim:/baudclkgenerator_tb/UUT/Start
+add wave -position end  sim:/baudclkgenerator_tb/UUT/BaudClk
+add wave -position end  sim:/baudclkgenerator_tb/UUT/Ready
+add wave -position end  sim:/baudclkgenerator_tb/UUT/BitPeriodCounter
+add wave -position end  sim:/baudclkgenerator_tb/UUT/ClocksLeft
+run
+# WARNING: No extended dataflow license exists
+# Compile of UART_rx_tb.vhd was successful.
+vsim work.uart_rx_tb
+# End time: 20:12:12 on Jun 11,2024, Elapsed time: 3:05:50
+# Errors: 0, Warnings: 3
+# vsim work.uart_rx_tb 
+# Start time: 20:12:12 on Jun 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.uart_rx_tb(rtl)
+# Loading work.uart_rx(rtl)
+# Loading work.synchroniser(rtl)
+# Loading work.shiftregister(rtl)
+# Loading work.baudclkgenerator(rtl)
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/uart_rx_tb/clk
+add wave -position end  sim:/uart_rx_tb/rst
+add wave -position end  sim:/uart_rx_tb/RS232_Rx
+add wave -position end  sim:/uart_rx_tb/RxIRQClear
+add wave -position end  sim:/uart_rx_tb/RxIRQ
+add wave -position end  sim:/uart_rx_tb/RxData
+add wave -position end  sim:/uart_rx_tb/PCData
+add wave -position end  sim:/uart_rx_tb/UUT/clk
+add wave -position end  sim:/uart_rx_tb/UUT/rst
+add wave -position end  sim:/uart_rx_tb/UUT/RS232_Rx
+add wave -position end  sim:/uart_rx_tb/UUT/RxIRQClear
+add wave -position end  sim:/uart_rx_tb/UUT/RxIRQ
+add wave -position end  sim:/uart_rx_tb/UUT/RxData
+add wave -position end  sim:/uart_rx_tb/UUT/SMState
+add wave -position end  sim:/uart_rx_tb/UUT/RS232_Rx_Synced
+add wave -position end  sim:/uart_rx_tb/UUT/Start
+add wave -position end  sim:/uart_rx_tb/UUT/BaudClk
+add wave -position end  sim:/uart_rx_tb/UUT/Ready
+add wave -position end  sim:/uart_rx_tb/UUT/FallingEdge
+add wave -position end  sim:/uart_rx_tb/UUT/RS232_Rx_Synced_delayed
+run
+# Compile of UART_rx_tb.vhd was successful.
+run
+vsim work.uart_rx_tb
+# End time: 20:50:28 on Jun 11,2024, Elapsed time: 0:38:16
+# Errors: 0, Warnings: 2
+# vsim work.uart_rx_tb 
+# Start time: 20:50:28 on Jun 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.uart_rx_tb(rtl)
+# Loading work.uart_rx(rtl)
+# Loading work.synchroniser(rtl)
+# Loading work.shiftregister(rtl)
+# Loading work.baudclkgenerator(rtl)
+add wave -position end  sim:/uart_rx_tb/UUT/clk
+add wave -position end  sim:/uart_rx_tb/UUT/rst
+add wave -position end  sim:/uart_rx_tb/UUT/RS232_Rx
+add wave -position end  sim:/uart_rx_tb/UUT/RxIRQClear
+add wave -position end  sim:/uart_rx_tb/UUT/RxIRQ
+add wave -position end  sim:/uart_rx_tb/UUT/RxData
+add wave -position end  sim:/uart_rx_tb/UUT/SMState
+add wave -position end  sim:/uart_rx_tb/UUT/RS232_Rx_Synced
+add wave -position end  sim:/uart_rx_tb/UUT/Start
+add wave -position end  sim:/uart_rx_tb/UUT/BaudClk
+add wave -position end  sim:/uart_rx_tb/UUT/Ready
+add wave -position end  sim:/uart_rx_tb/UUT/FallingEdge
+add wave -position end  sim:/uart_rx_tb/UUT/RS232_Rx_Synced_delayed
+run
+restart
+restart
+add wave -position end  sim:/uart_rx_tb/UUT/BaudClkGenerator_Rx/clk
+add wave -position end  sim:/uart_rx_tb/UUT/BaudClkGenerator_Rx/rst
+add wave -position end  sim:/uart_rx_tb/UUT/BaudClkGenerator_Rx/Start
+add wave -position end  sim:/uart_rx_tb/UUT/BaudClkGenerator_Rx/BaudClk
+add wave -position end  sim:/uart_rx_tb/UUT/BaudClkGenerator_Rx/Ready
+add wave -position end  sim:/uart_rx_tb/UUT/BaudClkGenerator_Rx/BitPeriodCounter
+add wave -position end  sim:/uart_rx_tb/UUT/BaudClkGenerator_Rx/ClocksLeft
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position end  sim:/uart_rx_tb/UUT/clk
+add wave -position end  sim:/uart_rx_tb/UUT/rst
+add wave -position end  sim:/uart_rx_tb/UUT/RS232_Rx
+add wave -position end  sim:/uart_rx_tb/UUT/RxIRQClear
+add wave -position end  sim:/uart_rx_tb/UUT/RxIRQ
+add wave -position end  sim:/uart_rx_tb/UUT/RxData
+add wave -position end  sim:/uart_rx_tb/UUT/SMState
+add wave -position end  sim:/uart_rx_tb/UUT/RS232_Rx_Synced
+add wave -position end  sim:/uart_rx_tb/UUT/Start
+add wave -position end  sim:/uart_rx_tb/UUT/BaudClk
+add wave -position end  sim:/uart_rx_tb/UUT/Ready
+add wave -position end  sim:/uart_rx_tb/UUT/FallingEdge
+add wave -position end  sim:/uart_rx_tb/UUT/RS232_Rx_Synced_delayed
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of UART_rx.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.uart_rx(rtl)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of BaudClkGenerator.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.baudclkgenerator(rtl)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of TopLevelModule.vhd failed with 1 errors.
+# Compile of TopLevelModule.vhd was successful.
+# Compile of TopLevelModule_tb.vhd failed with 1 errors.
+# Compile of TopLevelModule_tb.vhd failed with 8 errors.
+# Compile of TopLevelModule_tb.vhd failed with 3 errors.
+# Compile of TopLevelModule_tb.vhd failed with 1 errors.
+# Compile of TopLevelModule_tb.vhd was successful.
+vsim work.toplevelmodule_tb
+# End time: 13:27:29 on Jun 12,2024, Elapsed time: 16:37:01
+# Errors: 0, Warnings: 10
+# vsim work.toplevelmodule_tb 
+# Start time: 13:27:29 on Jun 12,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.toplevelmodule_tb(rtl)
+# Loading work.toplevelmodule(rtl)
+# Loading work.uart_rx(rtl)
+# Loading work.synchroniser(rtl)
+# Loading work.shiftregister(rtl)
+# Loading work.baudclkgenerator(rtl)
+# Loading work.uart_tx(rtl)
+# Loading work.serializer(rtl)
+# ** Fatal: (vsim-3350) Generic "UART_Rx" has not been given a value.
+#    Time: 0 ps  Iteration: 0  Instance: /toplevelmodule_tb/UUT/UART_Transmitter/UART_BIT_TIMING_INST File: D:/my/courses/FPGA/projects/RS232/src/BaudClkGenerator.vhd Line: 10
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 13:27:29 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim work.toplevelmodule_tb
+# vsim work.toplevelmodule_tb 
+# Start time: 13:27:59 on Jun 12,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.toplevelmodule_tb(rtl)
+# Loading work.toplevelmodule(rtl)
+# Loading work.uart_rx(rtl)
+# Loading work.synchroniser(rtl)
+# Loading work.shiftregister(rtl)
+# Loading work.baudclkgenerator(rtl)
+# Loading work.uart_tx(rtl)
+# Loading work.serializer(rtl)
+# ** Fatal: (vsim-3350) Generic "UART_Rx" has not been given a value.
+#    Time: 0 ps  Iteration: 0  Instance: /toplevelmodule_tb/UUT/UART_Transmitter/UART_BIT_TIMING_INST File: D:/my/courses/FPGA/projects/RS232/src/BaudClkGenerator.vhd Line: 10
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 13:27:59 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of ShiftRegister.vhd was successful.
+# Compile of UART_tx.vhd was successful.
+# Compile of Serializer_tb.vhd was successful.
+vsim work.toplevelmodule_tb
+# vsim work.toplevelmodule_tb 
+# Start time: 13:28:29 on Jun 12,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.toplevelmodule_tb(rtl)
+# Loading work.toplevelmodule(rtl)
+# Loading work.uart_rx(rtl)
+# Loading work.synchroniser(rtl)
+# Loading work.shiftregister(rtl)
+# Loading work.baudclkgenerator(rtl)
+# Loading work.uart_tx(rtl)
+# Loading work.serializer(rtl)
+add wave -position end  sim:/toplevelmodule_tb/UUT/clk
+add wave -position end  sim:/toplevelmodule_tb/UUT/rst
+add wave -position end  sim:/toplevelmodule_tb/UUT/rs232_rx_pin
+add wave -position end  sim:/toplevelmodule_tb/UUT/rs232_tx_pin
+add wave -position end  sim:/toplevelmodule_tb/UUT/SMState
+add wave -position end  sim:/toplevelmodule_tb/UUT/TxStart
+add wave -position end  sim:/toplevelmodule_tb/UUT/TxReady
+add wave -position end  sim:/toplevelmodule_tb/UUT/RxIRQ
+add wave -position end  sim:/toplevelmodule_tb/UUT/RxData
+run
+# Compile of TopLevelModule_tb.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.toplevelmodule_tb(rtl)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of TopLevelModule_tb.vhd was successful.
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.toplevelmodule_tb(rtl)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of TopLevelModule_tb.vhd failed with 2 errors.
+# Compile of TopLevelModule_tb.vhd failed with 2 errors.
+# Compile of TopLevelModule_tb.vhd failed with 2 errors.
+# Compile of TopLevelModule_tb.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.toplevelmodule_tb(rtl)
+add wave -position end  sim:/toplevelmodule_tb/TransnittedData
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of TopLevelModule_tb.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.toplevelmodule_tb(rtl)
+# Warning in wave window restart: (vish-4014) No objects found matching '/toplevelmodule_tb/TransnittedData'. 
+add wave -position end  sim:/toplevelmodule_tb/TransmittedToPC
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position 9  sim:/toplevelmodule_tb/TransmittedData
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of TopLevelModule_tb.vhd was successful.
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.toplevelmodule_tb(rtl)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+# End time: 13:44:01 on Jun 13,2024, Elapsed time: 24:15:32
+# Errors: 0, Warnings: 1
